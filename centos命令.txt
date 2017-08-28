@@ -1,0 +1,8 @@
+##查看进程
+ps aux | grep (进程名如 npm)
+
+##杀死全部关键字进程
+killall (进程名如npm)
+
+##命令后加&后台执行服务
+npm start &
