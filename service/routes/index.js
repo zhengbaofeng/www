@@ -7,13 +7,11 @@ router.get('/', function(req, res, next) {
 });
 router.get('/login', function(req, res, next) {
   console.log("发送成功")
-  const rel = JSON.parse({ msg: 'get返回成功' })
-  res.send(rel)
+  res.send({ msg: 'get返回成功' })
 });
 router.post('/login', function(req, res, next) {
   console.log("发送成功")
-  const rel = JSON.parse({ msg: 'get返回成功' })
-  res.send(rel)
+  res.send({ msg: 'get返回成功' })
 });
 
 module.exports = router;
