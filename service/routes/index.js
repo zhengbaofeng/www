@@ -11,7 +11,7 @@ router.get('/api/login', function(req, res, next) {
 });
 router.post('/api/login', function(req, res, next) {
   console.log("发送成功")
-  res.send({ msg: 'get返回成功' })
+  res.send({ msg: 'post返回成功' })
 });
 
 module.exports = router;
